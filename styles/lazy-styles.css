@@ -22,22 +22,38 @@ main .hero-component p:first-child img{
 /*form container */
 
 main .form-container{
-    margin-top: 20px;
-    padding: 40px 10px;
-    background-color: rgb(241, 241, 241);
+    margin: auto;
+    margin-top: 80px;
 }
 
 main .form-container #form-component{
-   margin-top: 0;
+   margin:auto;
+   margin-bottom: 40px;
    font-size: 26px;
+   max-width: 970px;
 }
 
+main .form-container .form-wrapper {
+    padding: 40px;
+    max-width: 900px;
+    border: solid 1px rgb(213, 212, 212);
+    border-radius: 30px;
+}
+   
 main .form-container .form-wrapper *{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 main .form-container .form-wrapper .field-wrapper{
     margin-bottom: 20px;
+}
+
+main .form-container .form-wrapper input, 
+main .form-container .form-wrapper select
+{border: solid 1px rgb(213, 212, 212);
+width: 100%;
+max-width: 50rem;
+box-sizing: border-box;
 }
 
 
