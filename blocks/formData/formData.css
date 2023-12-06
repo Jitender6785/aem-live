@@ -1,0 +1,51 @@
+.formdata {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .formdata table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    font-size: var(--body-font-size-xs);
+  }
+  
+  @media (min-width: 600px) {
+    .formdata table {
+      font-size: var(--body-font-size-s);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .formdata table {
+      font-size: var(--body-font-size-m);
+    }
+  }
+  
+  .formdata table thead tr {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+  }
+  
+  .formdata table tbody tr {
+    border-bottom: 1px solid;
+  }
+  
+  .formdata table th {
+    font-weight: 700;
+  }
+  
+  .formdata table th, .formdata table td {
+    padding: 8px 16px;
+    text-align: left;
+  }
+  
+  /* striped variant */
+  .taformdatable.striped tbody tr:nth-child(odd) {
+    background-color: var(--overlay-background-color);
+  }
+  
+  /* bordered variant */
+  .formdata.bordered table th, .formdata.bordered table td {
+    border: 1px solid;
+  }
