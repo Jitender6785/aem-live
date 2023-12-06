@@ -52,7 +52,7 @@
   .slide a {
     position: absolute;
     top: 0;
-    width: 3rem;
+    width: 2rem;
     height: 100%;
     display: grid;
     place-items: center;
@@ -78,6 +78,11 @@
     align-items: center;
     position: relative;
   }
+
+  .carousel-nav ul li::marker{
+    content:'';
+    display: none;
+  }
   
   .carousel-nav a {
     display: grid;
@@ -87,4 +92,8 @@
     color: white;
     text-decoration: none;
     text-shadow: 1px 1px 0 hsla(220, 20%, 20%, 0.5);
+  }
+
+  .carousel-nav a  svg{
+    width: 1rem;
   }
