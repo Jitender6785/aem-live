@@ -5,6 +5,8 @@ main .hero-container > div {
 }
   
 main .hero-container {
+  display: flex;
+  flex-direction: column;
   padding: 0;
 }
   
