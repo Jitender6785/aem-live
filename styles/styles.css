@@ -260,6 +260,8 @@ main .section.highlight {
 /* hero component */
 
 main .hero-component{
+     display: flex;
+    flex-direction: column;
     width: 980px;
     margin: auto;
 }
