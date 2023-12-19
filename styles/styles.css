@@ -235,6 +235,8 @@ main img {
 }
 
 main .section {
+  width: 980px;
+  margin: auto;
   padding: 64px 16px;
 }
 
